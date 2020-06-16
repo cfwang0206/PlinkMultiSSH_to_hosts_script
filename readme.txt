@@ -1,34 +1,34 @@
-¥Î PLINK "À³¸Ó"¥i¥H§å¦¸¹ï¥D¾÷¤U©R¥OªºÃi´k°­¸}¥» by afeng
+ç”¨ PLINK "æ‡‰è©²"å¯ä»¥æ‰¹æ¬¡å°ä¸»æ©Ÿä¸‹å‘½ä»¤çš„æ‡¶æƒ°é¬¼è…³æœ¬ by afeng
 
-*¥Î³~»¡©ú:
-¯àÅª¨ú¦s¦b hosts.txt ¤¤ªº¥D¾÷IP ²M³æ ,³z¹L SSH ¥h»·ºÝ°µ§Ú­Ì­n¤U©R¥O©Î¬O°õ¦æ script ªº¨Æ±¡¡C
+*ç”¨é€”èªªæ˜Ž:
+èƒ½è®€å–å­˜åœ¨ hosts.txt ä¸­çš„ä¸»æ©ŸIP æ¸…å–® ,é€éŽ SSH åŽ»é ç«¯åšæˆ‘å€‘è¦ä¸‹å‘½ä»¤æˆ–æ˜¯åŸ·è¡Œ script.txt  è£¡é¢çš„äº‹æƒ…ã€‚
 
 
-*«ç»ò¥Î*
-1.¥Î°O¨Æ¥»¶}±Ò»Ý­nªºª©¥»
-FastSetting_CMD.bat - ¶È°õ¦æ©R¥O
-FastSetting_CMD&LoadScript.bat - °õ¦æ©R¥O»P¸}¥»
+*æ€Žéº¼ç”¨*
+1.ç”¨è¨˜äº‹æœ¬é–‹å•Ÿéœ€è¦çš„ç‰ˆæœ¬
+FastSetting_CMD.bat - åƒ…åŸ·è¡Œå‘½ä»¤
+FastSetting_CMD&LoadScript.bat - åŸ·è¡Œå‘½ä»¤èˆ‡è…³æœ¬
 
-2.­×§ï»Ý­nªº½d³ò
-SET Login=#µn¤J±b¸¹
-SET PASS=#µn¤J±K½X
-SET Extend_Command=#°õ¦æ©R¥O
+2.ä¿®æ”¹éœ€è¦çš„ç¯„åœ
+SET Login=#ç™»å…¥å¸³è™Ÿ
+SET PASS=#ç™»å…¥å¯†ç¢¼
+SET Extend_Command=#åŸ·è¡Œå‘½ä»¤
 
-3.Àx¦s§å¦¸ÀÉ®×
+3.å„²å­˜æ‰¹æ¬¡æª”æ¡ˆ
 
-4.°õ¦æ¬Ý¬Ý:)
+4.åŸ·è¡Œçœ‹çœ‹:)
 
-°õ¦æ¨BÆJ»¡©ú:
-[1]Åª¨ú hosts ¤¤ªº¥D¾÷ IP PING ³q¤~°µ ,¤£³qªº³]³Æ·|¦s¨ì failurelog.log.
-[2]°õ¦æ®É­Ô¡A¦s¤@¥÷log ¦¨ host_{IP}_debug.log ,
-[3]°õ¦æ§¹¦s©ñ¨ì done.log °O¿ý¡C
+åŸ·è¡Œæ­¥é©Ÿèªªæ˜Ž:
+[1]è®€å– hosts ä¸­çš„ä¸»æ©Ÿ IP PING é€šæ‰åš ,ä¸é€šçš„è¨­å‚™æœƒå­˜åˆ° failurelog.log.
+[2]åŸ·è¡Œæ™‚å€™ï¼Œå­˜ä¸€ä»½log æˆ host_{IP}_debug.log ,
+[3]åŸ·è¡Œå®Œå­˜æ”¾åˆ° done.log è¨˜éŒ„ã€‚
 
 
 == Changelog ==
-v0.2 2014/10/07 ·s¼W PING ³q¤~°µ SSH ³s½u°Ê§@
-                PING ¤£³q°O¿ý¨ì failurelog.log
-                °µ§¹¦s¨ì done.log
-                ¦n¹³ÁÙ¤Ö¤F¤°»ò...¤£ºÞ¤F,¤Ï¥¿¥i¥H°Ê :P
+v0.2 2014/10/07 æ–°å¢ž PING é€šæ‰åš SSH é€£ç·šå‹•ä½œ
+                PING ä¸é€šè¨˜éŒ„åˆ° failurelog.log
+                åšå®Œå­˜åˆ° done.log
+                å¥½åƒé‚„å°‘äº†ä»€éº¼...ä¸ç®¡äº†,åæ­£å¯ä»¥å‹• :P
                 
-v0.1 2014/10/06 Ãi´k°­¸}¥»²Ä¤@ª©
-                ¦n¹³¥i¥H°Ê... ¥i¥H¦s log.
+v0.1 2014/10/06 æ‡¶æƒ°é¬¼è…³æœ¬ç¬¬ä¸€ç‰ˆ
+                å¥½åƒå¯ä»¥å‹•... å¯ä»¥å­˜ log.
